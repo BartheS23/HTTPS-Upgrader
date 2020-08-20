@@ -1,0 +1,93 @@
+{
+  "httpFound": {
+    "message": "HTTP links:",
+    "description": "none"
+  },
+
+  "httpsFound": {
+    "message": "HTTPS links:",
+    "description": "none"
+  },
+
+  "ratio": {
+    "message": "HTTP/HTTPS ratio:",
+    "description": "none"
+  },
+
+  "findConvertLinks": {
+    "message": "Find convertible links",
+    "description": "none"
+  },
+
+  "scanButton": {
+    "message": "Scan",
+    "description": "none"
+  },
+
+  "convertButton": {
+    "message": "Convert",
+    "description": "none"
+  },
+
+  "convFoundMsg": {
+    "message": "Convertible links found:",
+    "description": "none"
+  },
+
+  "resetButton": {
+    "message": "Reset",
+    "description": "none"
+  },
+
+  "statsButton": {
+    "message": "Stats",
+    "description": "none"
+  },
+
+  "statsTitle": {
+    "message": "Statistics",
+    "description": "none"
+  },
+
+  "statsThDomain": {
+    "message": "Domain",
+    "description": "none"
+  },
+
+  "statsThVisitedPages": {
+    "message": "Visited pages",
+    "description": "none"
+  },
+
+  "statsThRatioMean": {
+    "message": "Ratio mean",
+    "description": "none"
+  },
+
+  "actualPageStatus": {
+    "message": "This page is not secured!",
+    "description": "none"
+  },
+
+  "infoBtn": {
+    "message": "Convertible links",
+    "description": "none"
+  },
+
+  "clickedLink": {
+    "message": "Link could not be converted, continue ?",
+    "description": "none"
+  },
+
+  "scannedTitle": {
+    "message": "Information page about the scanned links",
+    "description": "none"
+  },
+
+  "testedRequestText":{
+    "message": "Response code of tested requests:",
+    "description": "none"
+  }
+
+
+}

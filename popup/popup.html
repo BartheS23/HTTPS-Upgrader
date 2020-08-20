@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css"/>
+  </head>
+
+  <body>
+    <div class="popup-content">
+      <div class="popupText" id="actualPageStatus" hidden></div>
+      <div class="popupText" id="httpFound"></div>
+      <div class="popupS popupText" id="httpsFound"></div>
+      <div class="popupText" id="ratio"></div>
+      <div class="popupText" id="convertLinks" hidden>
+        <p id="findConvertLinks"></p>
+        <div class="button" id="scanPage">
+          <p id="scanBtn"></p>
+        </div>
+        <div class="button redirect" id="infoBtn" hidden></div>
+        <img id="loadingGif" src="../icons/loading.gif" width="30px" alt="loading" hidden>
+        <div id="convFound" class="convFound" hidden></div>
+        <div class="button" id="convertBtn" hidden></div>
+        <img src="../icons/loading.gif" width="30px" alt="loading" id="convGif" hidden>
+      </div>
+
+      <div class="button redirect" id="statsBtn"></div>
+      <div class="button redirect" id="resetBtn"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+
+</html>

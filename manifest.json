@@ -1,0 +1,60 @@
+{
+
+  "manifest_version": 2,
+  "name": "HTTPS-Upgrader",
+  "description": "Find unsafe links during a browsing session on the internet",
+  "version": "1.0",
+  "default_locale": "en",
+  "homepage_url": "https://gitlab.ti.bfh.ch/barts5/https-upgrader",
+
+  "icons": {
+    "256": "icons/projectIcon/H-UG-icon256.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "@H-UG",
+      "strict_min_version": "42.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["js/jquery-3.4.1.min.js", "content.js"]
+    }
+  ],
+
+  "background": {
+    "scripts":["js/jquery-3.4.1.min.js", "background/background.js"]
+  },
+
+
+  "browser_action": {
+    "default_icon": {
+      "256" : "icons/projectIcon/H-UG-icon256.png",
+      "32" : "icons/projectIcon/H-UG-icon32.png",
+      "16" : "icons/projectIcon/H-UG-icon16.png"
+    },
+    "default_popup": "popup/popup.html",
+    "default_title": "HTTPS-Upgrader"
+   },
+
+  "content_security_policy": "default-src 'self'; script-src 'self'; style-src 'self'",
+  "permissions": [
+        "activeTab",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "storage",
+        "*://*/*",
+        "ftp://*/*"
+    ],
+
+  "web_accessible_resources": [
+    "icons/projectIcon/H-UG-iconOpen256.png"
+  ]
+
+
+}

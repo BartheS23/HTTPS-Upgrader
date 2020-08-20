@@ -1,0 +1,55 @@
+html, body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: auto;
+  background-color: #F6F6F2;
+}
+
+p {
+  height: 10px;
+  margin-top: 0px;
+}
+
+#ratio {
+  font-weight: bold;
+}
+
+.popupText {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #BADFE7;
+}
+
+.popupS {
+  background-color: #C2EDCE;
+}
+
+#httpFound {
+  background-color: #EA8B7B;
+}
+
+#actualPageStatus {
+  background-color: #EA8B7B;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #ffedb3;
+}
+
+.button:hover {
+  background-color: #ffe799;
+}
+
+.redirect {
+  background-color: #68b8ca;
+}
+
+.redirect:hover {
+  background-color: #55afc3;
+}

@@ -1,0 +1,18 @@
+html, body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  height: 25px;
+  text-align: center;
+}
