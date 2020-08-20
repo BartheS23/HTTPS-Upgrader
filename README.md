@@ -4,7 +4,6 @@
 
 Today, there are still too many insecure web links (HTTP). The purpose of this plugin is to make it easier for the user to know how many unsafe links are on the web page he is visiting and to encourage him to visit more secure pages.
 
-You find the project explication under `Documentation/explication.pdf`
 
 ## Team
 
@@ -20,7 +19,7 @@ You find the project explication under `Documentation/explication.pdf`
 
 - Get it from Firefox addons: *Not yet available* (recomended)
 
-- Get it from GitHub: *Not yet available*
+- Get it from GitHub: https://github.com/BartheS23/HTTPS-Upgrader
 > GitHub version is recomended only if you want to have the source code.
 
 ## Installation
@@ -95,19 +94,19 @@ For more information check the following link:
 
 - The badge will show the HTTP/HTTPS ratio of the current webpage your are on.
 
-![badge](./Documentation/UserDoc/badge.png)
+![badge](./icons/UserDoc/badge.png)
 
 - To make you aware all HTTP links present on the webpage are highlighted with a yellow color.
 
 - Once the is popup open, it will display the webpage information.
 
-![Find links](./Documentation/UserDoc/find_links.png)
+![Find links](./icons/UserDoc/find_links.png)
 
 - The **Scan** button allows to find convertible links. Convertibles are HTTP links that have an HTTPS version.
 
   - It also show the *Convertible links* and *Convert* buttons.
 
-![Scan result](./Documentation/UserDoc/scan_result.png)
+![Scan result](./icons/UserDoc/scan_result.png)
 
 - The **Convertible links** button open a new tab where all the scanned links with their status code are shown.
 
@@ -116,7 +115,7 @@ For more information check the following link:
 
 - The **Convert** button converts all the HTTP links into HTTPS if it is possible.
 
-![Convert](./Documentation/UserDoc/convert.png)
+![Convert](./icons/UserDoc/convert.png)
 
 - The **Statistics** button open a new tab where some stats information about the browsing session can be found.
 
