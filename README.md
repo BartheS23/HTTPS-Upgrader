@@ -2,7 +2,7 @@
 
 ## Description
 
-Today, there are still too many insecure web links (HTTP). The purpose of this plugin is to make it easier for the user to know how many unsafe links are on the web page he is visiting and to encourage him to visit more secure pages.
+Today, there are still too many insecure web links (HTTP). The purpose of this plugin is to make it easier for the user to know how many unsafe links there are on the web page he is visiting and to encourage him to visit more secure pages.
 
 
 ## Team
@@ -117,7 +117,7 @@ For more information check the following link:
 
 ![Convert](./icons/UserDoc/convert.png)
 
-- The **Statistics** button open a new tab where some stats information about the browsing session can be found.
+- The **Statistics** button opens a new tab where some stats information about the browsing session can be found.
 
   - *Ratio* is the ratio of the total number of HTTP and HTTPS links found on a domain.
 
