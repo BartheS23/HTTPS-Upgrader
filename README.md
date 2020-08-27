@@ -17,7 +17,7 @@ Today, there are still too many insecure web links (HTTP). The purpose of this p
 
 ## Download
 
-- Get it from Firefox addons: *Not yet available* (recomended)
+- Get it from Firefox addons: https://addons.mozilla.org/en-GB/firefox/addon/https-upgrader/
 
 - Get it from GitHub: https://github.com/BartheS23/HTTPS-Upgrader
 > GitHub version is recomended only if you want to have the source code.
